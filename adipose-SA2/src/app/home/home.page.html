@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Adipose
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Adipose</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+  
+    <ion-card-content>
+      Body mass index is a value derived from the mass and height of a person. The BMI is defined as the body mass divided by the square of the body height, and is expressed in units of kg/m², resulting from mass in kilograms and height in metres
+    </ion-card-content>
+  </ion-card>
+
+
+  <ion-button [routerLink]="['/calculator']" routerDirection="forward">Calculate Here</ion-button>
+
+</ion-content>
